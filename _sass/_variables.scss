@@ -6,12 +6,12 @@
 // Colors
 $blue: $oc-blue-8;
 
-// Grays
+// cyans
 $black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
+$darkercyan: #222;
+$darkcyan: #333;
+$cyan: #666;
+$lightcyan: #eee;
 $white: #fff;
 
 // Font stacks
@@ -28,38 +28,38 @@ $base-font-size: 16px;
 $small-font-size: 14px;
 
 // Colors
-$base-color: $oc-gray-8;
-$base-lighten-color: $oc-gray-6;
-$base-lightener-color: $oc-gray-4;
+$base-color: $oc-cyan-8;
+$base-lighten-color: $oc-cyan-6;
+$base-lightener-color: $oc-cyan-4;
 
-$background-color: $oc-gray-0;
+$background-color: $oc-cyan-0;
 $background-lighten-color: #f8f9fa6b;
 
 $text-color: $base-color;
 $link-color: $oc-blue-8;
 $link-lighten-color: $oc-blue-6;
 $link-bghv-color: $oc-blue-0;
-$divider-color: $oc-gray-1;
+$divider-color: $oc-cyan-1;
 
 $error-color:$oc-blue-8;
 
-$table-border-color: $oc-gray-2;
-$table-background-color: $oc-gray-1;
+$table-border-color: $oc-cyan-2;
+$table-background-color: $oc-cyan-1;
 
 $blockquote-color: $base-lighten-color;
-$blockquote-border-color: $oc-gray-3;
+$blockquote-border-color: $oc-cyan-3;
 
-$footnote-link-border-color: $oc-gray-1;
-$footnote-link-background-over-color: $oc-gray-1;
+$footnote-link-border-color: $oc-cyan-1;
+$footnote-link-background-over-color: $oc-cyan-1;
 
 // $selection-color: $oc-black;
-$selection-background-color: $oc-gray-3;
+$selection-background-color: $oc-cyan-3;
 
-$tag-index-label-background-color: $oc-gray-2;
+$tag-index-label-background-color: $oc-cyan-2;
 $tag-index-count-background-color: #868e961a;
 
-$footer-border-color: $oc-gray-2;
-$footer-background-color: $oc-gray-0;
+$footer-border-color: $oc-cyan-2;
+$footer-background-color: $oc-cyan-0;
 
 // List
 $li-bottom-space: 0.4em;
