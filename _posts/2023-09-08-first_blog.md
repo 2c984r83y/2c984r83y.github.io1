@@ -2,10 +2,9 @@
 layout: post
 title: "This is my fisrt blog"
 date:   2023-09-08
-tags: [defult]
+tags: [default]
 comments: true
 author: 2c984r83y
 ---
-# This is my fisrt blog
-
+Default
 ## Hello World
