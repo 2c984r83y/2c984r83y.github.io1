@@ -26,8 +26,6 @@ navigation:
     url: /about
   - name: 归档
     url: /archive
-  - name: 标签
-    url: /tags
   - name: Img
     url: /photos
   - name: 导航
