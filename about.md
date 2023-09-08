@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 ## 关于我
+TODO
 
 `活着其实很好 再吃一颗苹果`
 
-test git push
 
 ## About this blog
 
