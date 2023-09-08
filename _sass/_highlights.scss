@@ -5,7 +5,7 @@ pre, code {
 code.highlighter-rouge {
   font-size: 90%;
   color: $oc-indigo-9;
-  background-color: $oc-gray-1;
+  background-color: $oc-cyan-1;
   padding: .1em .2em;
   border-radius: 3px;
 }
@@ -13,13 +13,13 @@ code.highlighter-rouge {
 pre.highlight {
   font-size: $small-font-size;
   padding: .45em .45em .45em .625em;
-  border: 1px solid $oc-gray-3;
+  border: 1px solid $oc-cyan-3;
   border-radius: 3px;
   margin: 1em 0;
   overflow: scroll;
 }
 
-.highlight  { background: $oc-gray-0; }
+.highlight  { background: $oc-cyan-0; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
