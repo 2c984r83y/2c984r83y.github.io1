@@ -4,10 +4,17 @@ title: About
 permalink: /about/
 ---
 ## 关于我
+
 `活着其实很好 再吃一颗苹果`
+
+test git push
+
 ## About this blog
+
 This blog is a copy of [goldstine/goldstine.github.io](https://github.com/goldstine/goldstine.github.io)
+
 ## LaTex test
+
 $$
 \begin{align*}
 y = y(x,t) &= A e^{i\theta} \\
@@ -18,5 +25,3 @@ y = y(x,t) &= A e^{i\theta} \\
 &= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t)
 \end{align*}
 $$
-
-
