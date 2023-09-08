@@ -1,13 +1,11 @@
-这是一个可 fork 的博客模板仓库，帮助你快速搭建自己的博客，可以参考我博客的[这篇文章](https://goldstine.github.io/create_blog_with_github_pages/)详细指导搭建步骤。
 
-### 文章版权
+## 文章版权
 
 `_posts` 文件夹内所有文章版权归我所有，转载需联系我获得授权。
 
-### 致谢
+## 致谢
 
-感谢Jekyll主题[LOFFER](https://fromendworld.github.io/LOFFER/)模提供了原始主题模板，我在其上进行的二次开发。
+感谢Jekyll主题[LOFFER](https://fromendworld.github.io/LOFFER/)模提供了原始主题模板
+感谢goldstine在其上进行的二次开发，你可以[点击这里](https://github.com/goldstine/goldstine.github.io/tree/main)查看本博客使用的模板。
 
-如果搭建过程中有什么问题，也可以扫码添加我的个人技术公众号讨论交流。
 
-![公众号二维码](https://cdn.jsdelivr.net/gh/goldstine/goldstine.github.io/images/weixin.jpg)
