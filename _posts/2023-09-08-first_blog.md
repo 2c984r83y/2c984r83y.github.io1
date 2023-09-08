@@ -6,5 +6,5 @@ tags: [default]
 comments: true
 author: 2c984r83y
 ---
-Default
+
 ## Hello World
