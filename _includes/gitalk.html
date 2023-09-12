@@ -1,4 +1,4 @@
-{% if site.gitalk %}
+{% if site.gitalk.clientID %}
 <div class="comments">
     <div id="gitalk-container"></div>
     <script>
@@ -12,6 +12,7 @@
           distractionFreeMode: false,  // Facebook-like distraction free mode
           title: "{{ page.title }}",
           language: "zh-CN",
+          proxy: '{{ site.gitalk.proxy }}',
 
         })
         

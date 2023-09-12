@@ -180,6 +180,7 @@ dt {
   float: left;
   width: $dt-width;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
   clear: left;
   text-align: right;
   white-space: nowrap;
@@ -480,9 +481,24 @@ nav {
   border-bottom: none;
 }
 
+
+.pinned .feather-anchor {
+  color: $base-lighten-color;
+  padding: 2px;
+  margin-right: 8px;
+}
+
+
 .date {
   font-weight: 300;
   font-size: $small-font-size;
+  color: $base-lighten-color;
+  margin-right: 4px;
+}
+
+.author{
+  font-weight:700;
+  font-size:$small-font-size;
   color: $base-lighten-color;
   margin-right: 4px;
 }
@@ -512,8 +528,6 @@ nav {
   }
 }
 
-
-
 // TOC
 
 .toc {
@@ -523,6 +537,7 @@ nav {
   position: fixed;
   z-index: 4;
   padding: 60px 20px 0 20px;
+  overflow-y: auto;
   
   &:before{
     content:"目录";
@@ -548,6 +563,8 @@ nav {
     padding-left: 260px;
   }
 }
+
+// pagination
 
 .pagination {
   border-top: 1px solid $divider-color;
