@@ -28,4 +28,4 @@ This blog is a copy of [goldstine/goldstine.github.io](https://github.com/goldst
 
 ## LaTex test
 
-$e^{i \pi}+1=0$
+$ e = m c^2 $
