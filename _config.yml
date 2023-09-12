@@ -7,6 +7,8 @@ name: "2c984r83y's blog"
 # Short bio or description (displayed in the header)
 description: "Under construction"
 markdown: kramdown
+kramdown:
+  math_engine: null
 #
 # Flags below are optional
 #
