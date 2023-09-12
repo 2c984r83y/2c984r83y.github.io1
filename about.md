@@ -1,7 +1,18 @@
 ---
 layout: page
-title: 关于
+title: About
 permalink: /about/
 ---
+## 关于我
 
-这是一个关于页面，请编辑about.md以介绍你的博客。
+TODO:About me
+
+`活着其实很好 再吃一颗苹果`
+
+## About this blog
+
+This blog is a copy of [goldstine/goldstine.github.io](https://github.com/goldstine/goldstine.github.io)
+
+## LaTex test
+
+$$e^{i \pi}+1=0$$

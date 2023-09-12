@@ -1,36 +1,24 @@
 #
-# 这个文档包含了本博客的设定信息，你可以编辑它来个性化自己的博客，
+# This file contains configuration flags to customize your site
 #
 
-# 你的博客名称，请用你想要的博客名替换“LOFFER”，以下修改都可类似处理
-# 注意，“name: LOFFER”，冒号后面的空格不可以省略。
-# 井号后面的文字是说明文档，不会被程序读取。
-
-# 描述/签名
-name: LOFFER
-description: 一个可以fork的博客
-
-# 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
-url: 
-
-# 添加你的博客的二级域名，一般来说是你的repository名
-# 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
-# 那么就写成 "/repository-name"
-baseurl: /LOFFER
-
+# Name of your site (displayed in the header)
+name: "2c984r83y's blog"
+# Short bio or description (displayed in the header)
+description: "Under construction"
 
 #
-# 下面的设定都是可选的
+# Flags below are optional
 #
 
-# 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
-
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://avatars.githubusercontent.com/u/25505428?v=4
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/favicon.png
+favicon: https://avatars.githubusercontent.com/u/25505428?v=4
 
-
-# 菜单中的按钮
+# Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
+# and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
+# it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
   - name: 首页
     url: /
@@ -38,59 +26,65 @@ navigation:
     url: /about
   - name: 归档
     url: /archive
-  - name: 标签
-    url: /tags
+  - name: Img
+    url: /photos
+  - name: 导航
+    url: /navigation
 
-# 每页的文章数
+# Pagination
 paginate: 8
 
-# 文章简介的区分标记
 excerpt_separator: <!-- more -->
 
-# 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
-footer-links: 
-  weibo:  #请输入你的微博个性域名 https://www.weibo.com/<thispart>
-  behance: # https://www.behance.net/<>
-  dribbble: # https://dribbble.com/<>
-  email: #youremailaddress@mail.com
-  facebook: #https://www.facebook.com/<>
-  flickr: #https://www.flickr.com/<>
-  github: FromEndWorld/loffer #https://github.com/<>
-  instagram: #https://instagram.com/<>
-  linkedin: #https://www.linkedin.com/in/<>
-  pinterest: #https://www.pinterest.com/<>
-  rss: #随便填点啥RSS就能用了
-  stackoverflow: # http://stackoverflow.com/<>
+# Includes an icon in the footer for each username you enter
+footer-links:
+  #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
+  behance: # https://www.behance.net/<username>
+  dribbble:
+  #zhihu: https://www.zhihu.com/people/2c984r83y
+  email: zhao32450039@gmail.com
+  facebook:
+  flickr:
+  github: 2c984r83y 
+  googleplus: # anything in your profile username that comes after plus.google.com/
+  instagram:
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  twitter: # https://www.twitter.com/<your_twitter_username> 
-  youtube: # channel/<your_long_string> or user/<user-name>
+  #twitter: frommidworld
+  youtube:
 
-# 站点页脚的文字
-footer-text: Copyright (c) 2019 来自中世界
+# Text under the icons in footer
+footer-text: Copyright © 2023 2c984r83y
 
-#
-# 评论，注意，请不要同时添加多种不同的评论区
-#
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: # fromendworld
 
-# 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点loffer
-disqus: #shortname
-
-# 输入Gitalk相关设定，即可添加评论区，具体请看教程
+# Gitalk
 gitalk:
-  clientID: 
-  clientSecret: 
-  repo: 
-  owner: 
-  proxy:
+  clientID: 1363872b3d03d2c388db
+  clientSecret: 25fe338d5ee8723e52c7b4e73443bb26f0c8dd7d
+  repo: 2c984r83y.github.io
+  owner: 2c984r83y
 
-# 输入Google Analytics web tracking code
-google_analytics:
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+#google_analytics: 
 
-utteranc:
-  repo: # Your github repo path, also see: https://utteranc.es
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url: https://2c984r83y.github.io
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+# baseurl: 
 
 #
-# !! 以下所有设置都不需要更改 !!
+# !! You don't need to change any of the configuration flags below !!
 #
 
 permalink: /:title/
