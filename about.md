@@ -28,7 +28,10 @@ This blog is a copy of [goldstine/goldstine.github.io](https://github.com/goldst
 
 ## LaTex test
 
-$ e = m c^2 $
-$$ e = m c^2 $$
-$e=mc^2$
+$ e = m c^2 $  
+
+$$ e = m c^2 $$  
+
+$e=mc^2$  
+
 $$e=mc^2$$
