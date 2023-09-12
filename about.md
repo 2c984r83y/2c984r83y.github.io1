@@ -27,7 +27,6 @@ TODO:About me
 This blog is a copy of [goldstine/goldstine.github.io](https://github.com/goldstine/goldstine.github.io)
 
 ## LaTex test
-$\[\text{a+}{{\text{b}}^{2}}\]$
 
 $ e = m c^2 $  
 
