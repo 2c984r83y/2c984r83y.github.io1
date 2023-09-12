@@ -26,4 +26,4 @@ y = y(x,t) &= A e^{i\theta} \\
 \end{align*}
 $$
 
-$$e^{i \pi}+1=0$$
+$e^{i \pi}+1=0$
