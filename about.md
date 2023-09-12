@@ -1,3 +1,9 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
 <head>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <script type="text/x-mathjax-config">
@@ -10,12 +16,6 @@
     </script>
 </head>
 
----
-
-layout: page
-title: About
-permalink: /about/
-------------------
 
 ## 关于我
 
