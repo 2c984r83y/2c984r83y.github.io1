@@ -27,9 +27,6 @@ $S=\frac{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ |I(i+x,j+y)\ T(x,y)|}{\sqrt{\
 ZNCC:  
 $S=\frac{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ |[I(i+x,j+y)-m_i]\ [T(x,y)-m_t]}{\sqrt{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ [I(i+x,j+y)-m_i]^2}\ \sqrt{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ [T(x,y)-m_t]^2}}$  
 
-Test:$H_n=1+\frac{1}{2}+\frac{1}{3}+...+\frac{1}{n}=\sum_{i=1}^{n}\frac{1}{i}=O(\log n)$
-Test:  
-$$H_n=1+\frac{1}{2}+\frac{1}{3}+...+\frac{1}{n}=\sum_{i=1}^{n}\frac{1}{i}=O(\log n)$$
 
 ## License
 
