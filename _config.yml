@@ -6,9 +6,6 @@
 name: "2c984r83y's blog"
 # Short bio or description (displayed in the header)
 description: "Under construction"
-markdown: kramdown
-kramdown:
-  math_engine: null
 #
 # Flags below are optional
 #
@@ -60,6 +57,7 @@ footer-links:
 
 # Text under the icons in footer
 footer-text: Copyright © 2023 2c984r83y
+footer-text: Copyright © 2023 2c984r83y
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -104,6 +102,7 @@ kramdown:
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
+    math_engine: null
 
 # Set the Sass partials directory, as we're using @imports
 sass:
