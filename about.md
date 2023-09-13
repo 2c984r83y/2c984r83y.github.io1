@@ -13,24 +13,24 @@ TODO:About me
 
 This blog is a copy of [goldstine/goldstine.github.io](https://github.com/goldstine/goldstine.github.io)
 
-## LaTex 
+## LaTex
 
 [Reference:在Jekyll中使用LaTeX](https://luyuhuang.tech/2019/09/12/use-latex-in-jekyll.html)
 
 ### Test
 
-$e=mc^2$  
+$e=mc^2$
 
-NCC:  
-$S=\frac{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ |I(i+x,j+y)\ T(x,y)|}{\sqrt{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ I(i+x,j+y)^2}\ \sqrt{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ T(i,j)^2}}$  
+NCC:
 
-ZNCC:  
-$S=\frac{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ |[I(i+x,j+y)-m_i]\ [T(x,y)-m_t]}{\sqrt{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ [I(i+x,j+y)-m_i]^2}\ \sqrt{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ [T(x,y)-m_t]^2}}$  
 
+$S=\frac{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ |I(i+x,j+y)\ T(x,y)|}{\sqrt{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ I(i+x,j+y)^2}\ \sqrt{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ T(i,j)^2}}$
+
+ZNCC:
+$S=\frac{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ |[I(i+x,j+y)-m_i]\ [T(x,y)-m_t]}{\sqrt{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ [I(i+x,j+y)-m_i]^2}\ \sqrt{\sum\limits_{x=0}^w\ \sum\limits_{y=0}^h\ [T(x,y)-m_t]^2}}$
 
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
 <img alt="Creative Commons License" style="margin: 0 auto;" src="../images/cc-by-nc.png"  />
 </a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>
-        
