@@ -6,8 +6,11 @@ permalink: /about/
 ## About me
 
 >時間如果可以倒流 我想我還是
+
 >會卯起來蹉跎 反正就這樣吧
+
 >我知道我 努力過
+
 
 
 ## About this blog
