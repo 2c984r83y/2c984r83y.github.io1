@@ -23,6 +23,5 @@ This blog is a copy of [goldstine/goldstine.github.io](https://github.com/goldst
 
 
 ## License
-</a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-<img alt="Creative Commons License" style="margin: 0 auto;" src="../images/cc-by-nc.png"  />
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="margin: 0 auto;" src="../images/cc-by-nc.png"  /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
