@@ -17,6 +17,8 @@ This blog is  forked from  [goldstine/goldstine.github.io](https://github.com/go
 
 使用Picgo与Github作为图床~~我知道这样不好但是我懒~~  
 
+`custom URL要填写：https://raw.githubusercontent.com/2c984r83y/2c984r83y.github.io/main`
+
 [在Vscode中使用Picgo插件](https://picgo.github.io/PicGo-Doc/zh/guide/config.html#github%E5%9B%BE%E5%BA%8A)
 
 ## LaTex
