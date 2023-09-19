@@ -35,7 +35,7 @@ author: 2c984r83y
 
 ## 代码流水线结构
 
-![20230919095603](https://raw.githubusercontent.com/2c984r83y/2c984r83y.github.io/main/images/20230919095603.png)
+![intrinsics_recording_pipeline](https://raw.githubusercontent.com/2c984r83y/2c984r83y.github.io/main/images/intrinsics_recording_pipeline.png)
 
 ### Trail Stage
 
