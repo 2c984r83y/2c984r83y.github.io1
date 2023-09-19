@@ -125,7 +125,7 @@ Intrinsics, extrinsics and per view RMS reprojection errors have been saved in /
 
 ```
 
-## Citiation:
+## Reference
 
 [Intrinsics Calibration — Metavision SDK Docs 4.3.0 documentation](https://docs.prophesee.ai/stable/samples/modules/calibration/intrinsics.html?highlight=calibrate)
 
