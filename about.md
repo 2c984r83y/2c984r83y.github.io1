@@ -20,7 +20,7 @@ This blog is  forked from  [goldstine/goldstine.github.io](https://github.com/go
 
 ## Picgo
 
-使用Picgo与Github作为图床~~我知道这样不好但是我懒~~ 
+使用Picgo与Github作为图床~~我知道这样不好但是我懒~~
 
 `custom URL要填写：https://raw.githubusercontent.com/2c984r83y/2c984r83y.github.io/main`
 
