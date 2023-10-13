@@ -32,6 +32,11 @@ $\mathcal{T}_i(\mathbf{u},p)$是time-context，时间上下文
 $\mathbf{u}=\begin{bmatrix}u_x,u_y\end{bmatrix}^T$是窗口中的像素，$u_x\in\{-R,\ldots,R\}$ $u_y\in\{-R,\ldots,R\}$
 Timesurface中的每个像素的灰度值度是时间值的编码：亮像素显示最近的活动，而暗像素接收过去更远的事件（为了清楚起见，图中仅表示与 OFF 事件相对应的时间值）
 ![20231013212413](https://raw.githubusercontent.com/2c984r83y/2c984r83y.github.io/main/images/20231013212413.png)
-
+$\mathcal{S}_i(\mathbf{u},p)$是$ev_i附近的$的time-surface:
+$\mathcal{S}_i(\mathbf{u},p)=e^{-(t_i-\mathcal{T}_i(\mathbf{u},p))/\tau}$
+Timesurface提供了动态的时空上下文信息,指数衰减系数扩展了时间邻域中的信息
+![20231013213421](https://raw.githubusercontent.com/2c984r83y/2c984r83y.github.io/main/images/20231013213421.png)
+三维视角下的timesurface:
+![20231013213439](https://raw.githubusercontent.com/2c984r83y/2c984r83y.github.io/main/images/20231013213439.png)
 
 [1] LAGORCE X, ORCHARD G, GALLUPPI F, 等. HOTS: A Hierarchy of Event-Based Time-Surfaces for Pattern Recognition[J/OL]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2017, 39(7): 1346-1359. DOI:[10.1109/TPAMI.2016.2574707](https://doi.org/10.1109/TPAMI.2016.2574707).
