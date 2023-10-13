@@ -25,14 +25,15 @@ This blog is forked from  [goldstine/goldstine.github.io](https://github.com/gol
 
 ### Picgo
 
-使用Picgo与Github作为图床~~我知道这样不好但是我懒~~
-
-`custom URL要填写：https://raw.githubusercontent.com/2c984r83y/2c984r83y.github.io/main`
+使用Picgo上传图片，Github作为图床~~我知道这样不好但是我懒~~
+上传剪贴板中的图片：`Ctrl + Alt + u`  
+custom URL要填写：`https://raw.githubusercontent.com/YOURID/YOURID.github.io/main`
 
 Ref:
 
 [在Vscode中使用Picgo插件](https://picgo.github.io/PicGo-Doc/zh/guide/config.html#github%E5%9B%BE%E5%BA%8A)
 
 ### LaTex公式
+使用Mathjax渲染LaTeX公式，使用方法：  
 
 [在Jekyll中使用mathjax渲染LaTeX公式](https://luyuhuang.tech/2019/09/12/use-latex-in-jekyll.html)
