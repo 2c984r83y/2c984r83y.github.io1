@@ -28,7 +28,7 @@ Timesurface是一种重构事件流的方法，它将事件流转换为图像帧
 以$\mathbf{x_i}=[x_i,y_i]^T$为中心的一个$2R+1\times2R+1$的窗口:
 $T_i(\mathbf{u},p)=\max_{j\leq i}\{t_j|\mathbf{x_j}=(\mathbf{x_i}+\mathbf{u}),p_j=p\}$  
 
-$T_i(\mathbf{u},p)$是time-context，时间上下文  
+其中$T_i(\mathbf{u},p)$是time-context，时间上下文  
 
 $\mathbf{u}=\begin{bmatrix}u_x,u_y\end{bmatrix}^T$是窗口中的像素,$u_x\in\{-R,\ldots,R\}$ $u_y\in\{-R,\ldots,R\}$  
 
