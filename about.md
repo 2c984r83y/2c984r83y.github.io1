@@ -25,7 +25,7 @@ This blog is forked from  [goldstine/goldstine.github.io](https://github.com/gol
 
 ### Picgo
 
-使用Picgo上传图片，Github作为图床~~我知道这样不好但是我懒~~
+使用Picgo上传图片，Github作为图床~~我知道这样不好但是我懒~~  
 上传剪贴板中的图片：`Ctrl + Alt + u`  
 custom URL要填写：`https://raw.githubusercontent.com/YOURID/YOURID.github.io/main`
 
