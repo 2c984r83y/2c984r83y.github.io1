@@ -26,8 +26,7 @@ $ev_i$是第i个事件，其坐标为$\mathbf{x_i}=[x_i,y_i]^T$
 Timesurface是一种重构事件流的方法，它将事件流转换为图像帧，使得事件流的信息可以用传统的计算机视觉算法处理.Timesurface的核心思想是将事件流的时间信息转换为空间信息，将事件流的时间戳$t_i$转换为像素的灰度，这样就可以将事件流转换为图像帧。[1]
 
 以$\mathbf{x_i}=[x_i,y_i]^T$为中心的一个$2R+1\times2R+1$的窗口:  
-
-$ T_i(\mathbf{u},p)=\max_{j\leq i}\{t_j|\mathbf{x_j}=(\mathbf{x_i}+\mathbf{u}),p_j=p\} $  
+可以表示为:$ T_i(\mathbf{u},p)=\max_{j\leq i}\{t_j|\mathbf{x_j}=(\mathbf{x_i}+\mathbf{u}),p_j=p\} $  
 
 
 其中$T_i(\mathbf{u},p)$是time-context，时间上下文  
