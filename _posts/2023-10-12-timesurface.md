@@ -14,7 +14,7 @@ $ev_i=[\mathbf{x_i},t_i,p_i]^T,\quad i\in\mathbb{N},$
 
 $ev_i$是第i个事件，其坐标为$\mathbf{x_i}=[x_i,y_i]^T$
 
-时间戳$t_i$，极性$p_i \in \left \{  -1,1\right \} $，-1表示OFF事件，1表示ON事件
+时间戳$t_i$，极性$ p_{i}\in\{-1,1\}$，-1表示OFF事件，1表示ON事件
 
 像素异步生成事件，形成时空点云，代表对象的空间分布和动态行为。
 ![20231013165452](https://raw.githubusercontent.com/2c984r83y/2c984r83y.github.io/main/images/20231013165452.png)
