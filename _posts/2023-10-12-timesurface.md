@@ -23,7 +23,7 @@ $ev_i$是第i个事件，其坐标为$\mathbf{x_i}=[x_i,y_i]^T$
 
 ## Timesurface
 
-Timesurface是一种重构事件流的方法，它将事件流转换为图像帧，使得事件流的信息可以用传统的计算机视觉算法处理。Timesurface的核心思想是将事件流的时间信息转换为空间信息，将事件流的时间戳$t_i$转换为像素的灰度，这样就可以将事件流转换为图像帧。[1]
+Timesurface是一种重构事件流的方法，它将事件流转换为图像帧，使得事件流的信息可以用传统的计算机视觉算法处理.Timesurface的核心思想是将事件流的时间信息转换为空间信息，将事件流的时间戳$t_i$转换为像素的灰度，这样就可以将事件流转换为图像帧。[1]
 
 以$\mathbf{x_i}=[x_i,y_i]^T$为中心的一个$2R+1\times2R+1$的窗口:
 $T_i(\mathbf{u},p)=\max_{j\leq i}\{t_j|\mathbf{x_j}=(\mathbf{x_i}+\mathbf{u}),p_j=p\}$
@@ -39,6 +39,5 @@ Timesurface提供了动态的时空上下文信息,指数衰减系数扩展了�
 ![20231013213439](https://raw.githubusercontent.com/2c984r83y/2c984r83y.github.io/main/images/20231013213439.png)
 
 ### Time-Surface Prototypes
-
 
 [1] LAGORCE X, ORCHARD G, GALLUPPI F, 等. HOTS: A Hierarchy of Event-Based Time-Surfaces for Pattern Recognition[J/OL]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2017, 39(7): 1346-1359. DOI:[10.1109/TPAMI.2016.2574707](https://doi.org/10.1109/TPAMI.2016.2574707).
