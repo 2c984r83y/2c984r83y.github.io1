@@ -43,6 +43,6 @@ Timesurface提供了动态的时空上下文信息,指数衰减系数扩展了�
 
 ### Time-Surface Prototypes
 
-为了构建整个平面而不是窗口的
+为了构建整个平面而不是窗口的局部
 
 [1] LAGORCE X, ORCHARD G, GALLUPPI F, 等. HOTS: A Hierarchy of Event-Based Time-Surfaces for Pattern Recognition[J/OL]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2017, 39(7): 1346-1359. DOI:[10.1109/TPAMI.2016.2574707](https://doi.org/10.1109/TPAMI.2016.2574707).
