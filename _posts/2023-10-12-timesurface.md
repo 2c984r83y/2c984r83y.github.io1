@@ -46,7 +46,6 @@ Timesurface提供了动态的时空上下文信息,指数衰减系数扩展了�
 为了构建整个平面而不是窗口的局部timesurface,这里使用incremental clustering process(增量聚类)生成timesurface.
 ![20231016100619](https://raw.githubusercontent.com/2c984r83y/2c984r83y.github.io/main/images/20231016100619.png)
 
-
 > [1] LAGORCE X, ORCHARD G, GALLUPPI F, 等. HOTS: A Hierarchy of Event-Based Time-Surfaces for Pattern Recognition[J/OL]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2017, 39(7): 1346-1359. DOI:[10.1109/TPAMI.2016.2574707](https://doi.org/10.1109/TPAMI.2016.2574707).
 
 ## 速度不变Timesurface
@@ -56,5 +55,8 @@ A common representation used in event-based vision is the Surface of Active Even
 Timesurface的局部可能有很大的变化。事实上，根据速度、方向和拐角的对比度，Timesurface的可能会有很大变化。为了保持分类模型的紧凑和高效，对其输入引入一些归一化非常重要。
 
 为了角点检测角点,应当使用相对时间而不是绝对的时间戳.然而在每个事件发生时更新一次局部的Timesurface太过于昂贵,而且存储每个像素的多个时间戳,消耗资源.
+![20231017205957](https://raw.githubusercontent.com/2c984r83y/2c984r83y.github.io/main/images/20231017205957.png)
 
->  [1]MANDERSCHEID J, SIRONI A, BOURDIS N. Speed Invariant Time Surface for Learning to Detect Corner Points With Event-Based Cameras[C/OL]//2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). Long Beach, CA, USA: IEEE, 2019: 10237-10246[2023-10-10]. [https://ieeexplore.ieee.org/document/8954376/](https://ieeexplore.ieee.org/document/8954376/). DOI:[10.1109/CVPR.2019.01049](https://doi.org/10.1109/CVPR.2019.01049).
+`若周围更高,则把S(x,y,p)周围的都削一圈,把S(x,y,p)赋值为(2r+1)^2(那就是把(2r+1)^2减1?)`
+
+> [1]MANDERSCHEID J, SIRONI A, BOURDIS N. Speed Invariant Time Surface for Learning to Detect Corner Points With Event-Based Cameras[C/OL]//2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). Long Beach, CA, USA: IEEE, 2019: 10237-10246[2023-10-10]. [https://ieeexplore.ieee.org/document/8954376/](https://ieeexplore.ieee.org/document/8954376/). DOI:[10.1109/CVPR.2019.01049](https://doi.org/10.1109/CVPR.2019.01049).
