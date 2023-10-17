@@ -21,7 +21,7 @@ $ev_i$是第i个事件，其坐标为$\mathbf{x_i}=[x_i,y_i]^T$
 
 因为事件流是异步产生的，与传统的固定事件曝光的图像相比富含更时空信息，所以将事件流转换为图像帧的算法至关重要，选对了算法就能发挥事件相机的高时间分辨率优势。事件相机与传统的高速相机相比，输出的事件流中不含冗余的背景图像信息，事件流只输出亮度变化超过阈值的运动物体的信息，这是我们感兴趣的，因此提高了处理速度，降低了数据量，避免使用过多的硬件资源，更利于实时计算。
 
-## Timesurface
+## Timesurface[1]
 
 Timesurface是一种重构事件流的方法，它将事件流转换为图像帧，使得事件流的信息可以用传统的计算机视觉算法处理.Timesurface的核心思想是将事件流的时间信息转换为空间信息，将事件流的时间戳$t_i$转换为像素的灰度，这样就可以将事件流转换为图像帧。[1]
 
@@ -48,7 +48,7 @@ Timesurface提供了动态的时空上下文信息,指数衰减系数扩展了�
 
 > [1] LAGORCE X, ORCHARD G, GALLUPPI F, 等. HOTS: A Hierarchy of Event-Based Time-Surfaces for Pattern Recognition[J/OL]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2017, 39(7): 1346-1359. DOI:[10.1109/TPAMI.2016.2574707](https://doi.org/10.1109/TPAMI.2016.2574707).
 
-## 速度不变Timesurface
+## 速度不变Timesurface[2]
 
 A common representation used in event-based vision is the Surface of Active Events [7], also referred as Time Surface [30]. The Time Surface T at a pixel (x, y) and polarity p is defined as T (x, y, p) ← t, (2) where t is the time of the last event with polarity p occurred at pixel (x, y).
 
@@ -59,4 +59,4 @@ Timesurface的局部可能有很大的变化。事实上，根据速度、方向
 
 `若周围更高,则把S(x,y,p)周围的都削一圈,把S(x,y,p)赋值为(2r+1)^2(那就是把(2r+1)^2减1?)`
 
-> [1]MANDERSCHEID J, SIRONI A, BOURDIS N. Speed Invariant Time Surface for Learning to Detect Corner Points With Event-Based Cameras[C/OL]//2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). Long Beach, CA, USA: IEEE, 2019: 10237-10246[2023-10-10]. [https://ieeexplore.ieee.org/document/8954376/](https://ieeexplore.ieee.org/document/8954376/). DOI:[10.1109/CVPR.2019.01049](https://doi.org/10.1109/CVPR.2019.01049).
+> [2]MANDERSCHEID J, SIRONI A, BOURDIS N. Speed Invariant Time Surface for Learning to Detect Corner Points With Event-Based Cameras[C/OL]//2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). Long Beach, CA, USA: IEEE, 2019: 10237-10246[2023-10-10]. [https://ieeexplore.ieee.org/document/8954376/](https://ieeexplore.ieee.org/document/8954376/). DOI:[10.1109/CVPR.2019.01049](https://doi.org/10.1109/CVPR.2019.01049).
